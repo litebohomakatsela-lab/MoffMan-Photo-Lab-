@@ -1,58 +1,63 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MoffMan Photo Lab</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      background-color: #f4f4f4;
-    }
-    header {
-      background-color: #222;
-      color: white;
-      padding: 15px;
-      text-align: center;
-    }
-    nav {
-      background: #444;
-      padding: 10px;
-      text-align: center;
-    }
-    nav a {
-      color: white;
-      margin: 0 15px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    .hero {
-      background: url('https://via.placeholder.com/1200x400') no-repeat center;
-      background-size: cover;
-      color: white;
-      padding: 100px 20px;
-      text-align: center;
-    }
-    .container {
-      padding: 20px;
-    }
-    .services {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 15px;
-    }
-    .card {
-      background: white;
-      padding: 15px;
-      border-radius: 8px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
-    footer {
-      background: #222;
-      color: white;
-      text-align: center;
-      padding: 10px;
-      margin-top: 20px;
-    }
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<header>
+  <h1>MoffMan Photo Lab</h1>
+  <p>Your trusted photo services partner</p>
+</header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#services">Services</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+  <h2>High Quality Photo Services</h2>
+  <p>Enlarging, Printing, Framing & More</p>
+</section>
+
+<div class="container">
+  <h2 id="services">Our Services</h2>
+  <div class="services">
+    <div class="card">
+      <h3>Photo Enlarging</h3>
+      <p>We enlarge your photos with high clarity.</p>
+    </div>
+    <div class="card">
+      <h3>Photo Printing</h3>
+      <p>High-quality prints in different sizes.</p>
+    </div>
+    <div class="card">
+      <h3>Frames for Sale</h3>
+      <p>Beautiful frames for your pictures.</p>
+    </div>
+    <div class="card">
+      <h3>Laminating</h3>
+      <p>Protect your documents and photos.</p>
+    </div>
+    <div class="card">
+      <h3>Photocopy</h3>
+      <p>Fast and affordable copying services.</p>
+    </div>
+  </div>
+
+  <h2 id="contact">Contact Us</h2>
+  <p>Email: moffman@example.com</p>
+  <p>Phone: +266 123 4567</p>
+</div>
+
+<footer>
+  <p>&copy; 2026 MoffMan Photo Lab</p>
+</footer>
+
+</body>
+</html>
     
